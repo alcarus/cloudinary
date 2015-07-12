@@ -19,7 +19,7 @@ Package.on_use(function (api){
 	api.use(["ui@1.0.0","templating@1.0.0","spacebars@1.0.0"], "client");
 
 	//Image manipulation
-	api.add_files("lib/cloudinary.standalone.js","client");
+	api.add_files("lib/cloudinary_js/js/jquery.cloudinary.js","client");
 
 	api.add_files("client/blocks.html", "client");
 	api.add_files("client/helpers.js", "client");
