@@ -1,0 +1,3 @@
+[submodule "lib/cloudinary_js"]
+	path = lib/cloudinary_js
+	url = git@github.com:alcarus/cloudinary_js.git
